@@ -6,7 +6,7 @@ import {INK} from './Cartoon';
 import {CAPTIONS} from './data/captions';
 import {HIDE} from './timeline';
 
-const {fontFamily} = loadFont('normal', {weights: ['400', '500', '600', '700', '800'] as any, subsets: ['bengali', 'latin']});
+const {fontFamily} = loadFont('normal', {weights: ['400', '500', '600', '700'] as any, subsets: ['bengali', 'latin']});
 export const FONT = fontFamily;
 
 /** Scene canvas (1920x1080 SVG) with optional camera + screen shake. */
